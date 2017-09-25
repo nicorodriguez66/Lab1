@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Dominio
 {
-    public class Class1
+    public abstract class person
     {
+        protected string name;
+        protected string surname;
+        protected List<subject> subjects;
     }
 }

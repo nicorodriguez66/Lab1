@@ -50,6 +50,7 @@
             this.editActivityToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteActivityToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.feeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.payFeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -193,26 +194,34 @@
             // newActivityToolStripMenuItem
             // 
             this.newActivityToolStripMenuItem.Name = "newActivityToolStripMenuItem";
-            this.newActivityToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.newActivityToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.newActivityToolStripMenuItem.Text = "New Activity";
             // 
             // editActivityToolStripMenuItem
             // 
             this.editActivityToolStripMenuItem.Name = "editActivityToolStripMenuItem";
-            this.editActivityToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.editActivityToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.editActivityToolStripMenuItem.Text = "Edit Activity";
             // 
             // deleteActivityToolStripMenuItem
             // 
             this.deleteActivityToolStripMenuItem.Name = "deleteActivityToolStripMenuItem";
-            this.deleteActivityToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.deleteActivityToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.deleteActivityToolStripMenuItem.Text = "Delete Activity";
             // 
             // feeToolStripMenuItem
             // 
+            this.feeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.payFeeToolStripMenuItem});
             this.feeToolStripMenuItem.Name = "feeToolStripMenuItem";
             this.feeToolStripMenuItem.Size = new System.Drawing.Size(42, 20);
             this.feeToolStripMenuItem.Text = "Fees";
+            // 
+            // payFeeToolStripMenuItem
+            // 
+            this.payFeeToolStripMenuItem.Name = "payFeeToolStripMenuItem";
+            this.payFeeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.payFeeToolStripMenuItem.Text = "Pay Fee";
             // 
             // SchoolERP
             // 
@@ -254,6 +263,7 @@
         private System.Windows.Forms.ToolStripMenuItem newActivityToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editActivityToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deleteActivityToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem payFeeToolStripMenuItem;
     }
 }
 
