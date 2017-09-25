@@ -51,6 +51,8 @@
             this.deleteActivityToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.feeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.payFeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.payActivityToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calculateRoutesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -158,7 +160,8 @@
             this.vansToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newVanToolStripMenuItem,
             this.editVanToolStripMenuItem,
-            this.deleteVanToolStripMenuItem});
+            this.deleteVanToolStripMenuItem,
+            this.calculateRoutesToolStripMenuItem});
             this.vansToolStripMenuItem.Name = "vansToolStripMenuItem";
             this.vansToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.vansToolStripMenuItem.Text = "Vans";
@@ -212,16 +215,29 @@
             // feeToolStripMenuItem
             // 
             this.feeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.payFeeToolStripMenuItem});
+            this.payFeeToolStripMenuItem,
+            this.payActivityToolStripMenuItem});
             this.feeToolStripMenuItem.Name = "feeToolStripMenuItem";
-            this.feeToolStripMenuItem.Size = new System.Drawing.Size(42, 20);
-            this.feeToolStripMenuItem.Text = "Fees";
+            this.feeToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.feeToolStripMenuItem.Text = "Payments";
             // 
             // payFeeToolStripMenuItem
             // 
             this.payFeeToolStripMenuItem.Name = "payFeeToolStripMenuItem";
             this.payFeeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.payFeeToolStripMenuItem.Text = "Pay Fee";
+            // 
+            // payActivityToolStripMenuItem
+            // 
+            this.payActivityToolStripMenuItem.Name = "payActivityToolStripMenuItem";
+            this.payActivityToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.payActivityToolStripMenuItem.Text = "Pay Activity";
+            // 
+            // calculateRoutesToolStripMenuItem
+            // 
+            this.calculateRoutesToolStripMenuItem.Name = "calculateRoutesToolStripMenuItem";
+            this.calculateRoutesToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.calculateRoutesToolStripMenuItem.Text = "Calculate Routes";
             // 
             // SchoolERP
             // 
@@ -264,6 +280,8 @@
         private System.Windows.Forms.ToolStripMenuItem editActivityToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deleteActivityToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem payFeeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem calculateRoutesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem payActivityToolStripMenuItem;
     }
 }
 
