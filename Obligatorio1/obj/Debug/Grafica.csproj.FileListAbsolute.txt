@@ -1,0 +1,11 @@
+C:\DA1\Lab1\Obligatorio1\bin\Debug\Obligatorio1.exe.config
+C:\DA1\Lab1\Obligatorio1\bin\Debug\Obligatorio1.exe
+C:\DA1\Lab1\Obligatorio1\bin\Debug\Obligatorio1.pdb
+C:\DA1\Lab1\Obligatorio1\bin\Debug\Dominio.dll
+C:\DA1\Lab1\Obligatorio1\bin\Debug\Dominio.pdb
+C:\DA1\Lab1\Obligatorio1\obj\Debug\Grafica.csprojResolveAssemblyReference.cache
+C:\DA1\Lab1\Obligatorio1\obj\Debug\Obligatorio1.SchoolERP.resources
+C:\DA1\Lab1\Obligatorio1\obj\Debug\Obligatorio1.Properties.Resources.resources
+C:\DA1\Lab1\Obligatorio1\obj\Debug\Grafica.csproj.GenerateResource.Cache
+C:\DA1\Lab1\Obligatorio1\obj\Debug\Obligatorio1.exe
+C:\DA1\Lab1\Obligatorio1\obj\Debug\Obligatorio1.pdb
