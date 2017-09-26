@@ -1,0 +1,7 @@
+C:\DA1\Lab1\TestDominio\bin\Debug\TestDominio.dll
+C:\DA1\Lab1\TestDominio\bin\Debug\TestDominio.pdb
+C:\DA1\Lab1\TestDominio\bin\Debug\Dominio.dll
+C:\DA1\Lab1\TestDominio\bin\Debug\Dominio.pdb
+C:\DA1\Lab1\TestDominio\obj\Debug\TestDominio.csprojResolveAssemblyReference.cache
+C:\DA1\Lab1\TestDominio\obj\Debug\TestDominio.dll
+C:\DA1\Lab1\TestDominio\obj\Debug\TestDominio.pdb
