@@ -12,6 +12,14 @@ namespace Dominio
 
         public student()
         {
+            name = "";
+            surname = "";
+            subjects = null;
+            number = 0;
+            idcard = 0;
+            x = 0;
+            y = 0;
+            payments = null;
 
         }
         public void EditStudent()
