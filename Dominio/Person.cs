@@ -8,8 +8,8 @@ namespace Dominio
 {
     public abstract class person
     {
-        protected string name;
-        protected string surname;
-        protected List<subject> subjects;
+        public string name { get; set; }
+        public string surname { get; set; }
+        public List<subject> subjects { get; set; }
     }
 }

@@ -59,7 +59,17 @@ namespace TestDominio
         //
         #endregion
 
+<<<<<<< HEAD
         
+=======
+        [TestMethod]
+        public void TestMethod1()
+        {
+            //
+            // TODO: Agregar aquí la lógica de las pruebas
+            //
+        }
+>>>>>>> StudentFeature
 
         [TestMethod]
         public void TestStudentBuilder()
