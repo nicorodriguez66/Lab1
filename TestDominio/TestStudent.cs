@@ -59,17 +59,7 @@ namespace TestDominio
         //
         #endregion
 
-<<<<<<< HEAD
         
-=======
-        [TestMethod]
-        public void TestMethod1()
-        {
-            //
-            // TODO: Agregar aquí la lógica de las pruebas
-            //
-        }
->>>>>>> StudentFeature
 
         [TestMethod]
         public void TestStudentBuilder()
@@ -85,5 +75,20 @@ namespace TestDominio
             Assert.AreEqual(null, testStudentvariable.payments);
         }
 
-    }
+        [TestMethod]
+        public void TestStudentBuilderWithParameters()
+        {
+            student testStudentvariable = new student("name","surname");
+            Assert.AreEqual("name", testStudentvariable.name);
+            Assert.AreEqual("surname", testStudentvariable.surname);
+            Assert.AreEqual(null, testStudentvariable.subjects);
+            Assert.AreEqual(0, testStudentvariable.idcard);
+            Assert.AreEqual(0, testStudentvariable.number);
+            Assert.AreEqual(0, testStudentvariable.x);
+            Assert.AreEqual(0, testStudentvariable.y);
+            Assert.AreEqual(null, testStudentvariable.payments);
+        }
+
+
+        }
 }

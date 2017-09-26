@@ -4,6 +4,9 @@ namespace Dominio
 {
     public class student:person
     {
+        private string v1;
+        private string v2;
+
         public int number { get; set; }
         public int idcard { get; set; }
         public float x { get; set; }
@@ -22,6 +25,13 @@ namespace Dominio
             payments = null;
 
         }
+
+        public student(string oneName, string oneSurname)
+        {
+            this.name = oneName;
+            this.surname = oneSurname;
+        }
+
         public void EditStudent()
         {
         }
